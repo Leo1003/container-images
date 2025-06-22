@@ -1,6 +1,6 @@
 #!/bin/sh
 set -eu
 
-busybox crond -f -l 2 -L /dev/stderr &
+busybox crond -f -l 7 -L /dev/stderr &
 
 exec "$@"
